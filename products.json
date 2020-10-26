@@ -161,6 +161,24 @@
 			],
 			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-cetim-aberto-nas-costas--p-1597798340241.jpeg",
 			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO MANGA LONGA COM FRANZIDO NA FRENTE BRANCO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-manga-longa-com-franzido-na-frente--p-1591565116944.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO MANGA LONGA COM FRANZIDO NA FRENTE PRETO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-manga-longa-com-franzido-na-frente--p-1591565120472.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
 		}
 	]	
 }
