@@ -70,7 +70,7 @@ a.hover {
     margin-right: 10px;
 }
 
-.item_thumb, .detail_thumb {
+.item_thumb, .detail_thumb, .item_thumb2 {
     height: 150px;
     display: block;
     margin: 0 auto;
@@ -327,6 +327,13 @@ p.notify_text {
 @media (max-width: 620px) {
 
    .simpleStore_detailView .item_thumb {
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+   .simpleStore_detailView .item_thumb2 {
         margin-bottom: 10px;
         display: block;
         width: 100%;

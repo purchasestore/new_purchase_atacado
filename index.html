@@ -7,12 +7,12 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
     <title>Purchase Atacado</title>
-    <meta name="description" content="Loja Atacado Roupas Femininas">
+    <meta name="description" content="Loja Promoção Roupas Femininas">
     <meta name="author" content="">
 
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale='1'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -22,12 +22,12 @@
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/imports.min.css">
-    <link rel="stylesheet" href="css/simpleStore.min.css">
+    <link rel="stylesheet" href="css/simpleStore.css">
+    <link rel="stylesheet" href="css/purchase.css">
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
-    <link href="https://cdn.simplo7.net/static/17741/configuracao/favicon.png" type="image/x-icon" rel="icon" />
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 <body>
@@ -36,6 +36,7 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container simpleStore">
         <div class="row">
+            <div class="descricao">Descrição Mensagem de aviso</div>
             <a class="brand" href="#"></a>
             <a class="button button-primary u-pull-right simpleStore_viewCart">
                 <i class="fa fa-shopping-cart"></i> Carrinho <span class="simpleCart_total"></span>
@@ -59,7 +60,7 @@
                         <span class="item_price"></span>
                     </div>
                     <div class="simpleStore_getDetail_container">
-                        <a class="button u-pull-right simpleStore_getDetail">Detalhes</a>
+                        <a class="button u-pull-right simpleStore_getDetail" id="detalhes">Detalhes</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +74,10 @@
 
             <div class="row">
                 <div class="four columns">
-                    <img src="" class="item_thumb"/>
+                    <div class="carousel">
+                        <img src="" class="item_thumb"/>
+                        <img src="" class="item_thumb2"/>
+                    </div>
                 </div>
                 <div class="eight columns">
                     <h5 class="item_name"></h5>
@@ -101,14 +105,14 @@
             <div class="row">
                 <div class="eight columns">
                     <div class="simpleCart_items"></div>
-                    <a href="javascript:;" class="simpleCart_empty u-pull-left">Carrinho Vazio <i class="fa fa-trash-o"></i></a>
+                    <a href="javascript:;" class="simpleCart_empty u-pull-left">Limpar Carrinho <i class="fa fa-trash-o"></i></a>
                 </div>
                 <div class="four columns">
                     <div class="cart_info">
                         <div class="cart_info_item cart_itemcount">Items:
                             <div class="simpleCart_quantity"></div>
                         </div>
-                        <div class="cart_info_item cart_taxrate">Tax Rate:
+                        <!--<div class="cart_info_item cart_taxrate">Tax Rate:
                             <div class="simpleCart_taxRate"></div>
                         </div>
                         <div class="cart_info_item cart_tax">Tax:
@@ -116,16 +120,19 @@
                         </div>
                         <div class="cart_info_item cart_shipping">Shipping:
                             <div class="simpleCart_shipping"></div>
-                        </div>
+                        </div>-->
                         <div class="cart_info_item cart_total"><b>Total:
                             <div class="simpleCart_grandTotal"></div>
                         </b></div>
                         <a href="javascript:;" class="button button-primary simpleStore_checkout u-pull-right">Checkout <i class="fa fa-arrow-right"></i></a>
+
                     </div>
                 </div>
             </div>
         </div>
     </script>
+    <a href="https://api.whatsapp.com/send?phone=5511955542056&text=" onClick="fazerPedido()" target="_blank" class="button button-primary button-whats">Fazer pedido pelo WhatsApp <i class="fa fa-whatsapp"></i></a>
+
 
     <!-- Error View -->
     <script id="error-template" type="x-template">
@@ -151,10 +158,11 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="js/simpleCart.min.js"></script>
-<script src="js/simpleStore.min.js"></script>
-<script src="plugins/google-sheets.js"></script>
+<script src="js/simpleStore.js"></script>
+<script src="plugins/google-sheets/google-sheets.js"></script>
 
 
 <script src="js/config.js"></script>
+<script src="js/purchase.js"></script>
 
 </html>

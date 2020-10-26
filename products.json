@@ -1,22 +1,166 @@
 {
 	"products" : [
 		{
-			"name" : "CASACO JACQUARD",
-			"price" : "49.90",
+			"name" : "VESTIDO ABERTO CINTURA ESTAMPADO FOLHAS" ,
+			"price" : "55.00",
 			"options" : [
-				{ "Tamanho" : "PP,P,M,G" }
+				{ "Tamanho" : "PP, P, M" }
 			],
-			"image" : "images/casaco-jacquard--p.jpeg",
-			"description" : "Casaco Jacquard atacado."
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-aberto-cintura-estampado-folhas--p-1602091475318.jpg",
+			"description" : "Tecido: Suplex. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
 		},
 		{
-			"name" : "Body Cavado Liso",
-			"price" : "39.90",
+			"name" : "VESTIDO DE ALCINHA RETO ROSA CLARO" ,
+			"price" : "55.00",
 			"options" : [
-				{ "Tamanho" : "PP,P,M,G" }
+				{ "Tamanho" : "PP, P, M" }
 			],
-			"image" : "images/body-body-cavado-liso--p.jpg",
-			"description" : "Body Cavado Liso Branco atacado."
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-de-alcinha-reto-rosa-claro--p-1574264954167.jpeg",
+			"description" : "Tecido: Suplex. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO RETO DE ONCINHA" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-reto-de-oncinha--p-1567722215918.jpg",
+			"description" : "Tecido: Suplex. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO DE ALCINHA RETO PRETO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-de-alcinha-reto-preto--p-1557937569111.jpg",
+			"description" : "Tecido: Suplex. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO FRENTE ÚNICA X PRETO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-frente-unica-x--p-1599325139164.jpeg",
+			"description" : "Tecido: Cotton. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO FRENTE ÚNICA X VERMELHO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-frente-unica-x--p-1601866142502.jpg",
+			"description" : "Tecido: Cotton. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO FRENTE ÚNICA X CINZA" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-frente-unica-x--p-1601866057289.jpg",
+			"description" : "Tecido: Cotton. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO FRENTE ÚNICA X BRANCO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/galeria/160374667133043.jpeg",
+			"description" : "Tecido: Cotton. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO ABERTO CINTURA FRANZIDO ROSA BEBÊ" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-aberto-cintura-franzid--p-1597025146738.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},		
+		{
+			"name" : "VESTIDO ABERTO CINTURA FRANZIDO ROSA NEON" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-aberto-cintura-franzid--p-1602431362221.jpg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO ABERTO CINTURA FRANZIDO PRETO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-aberto-cintura-franzid--p-1597025133210.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO ABERTO CINTURA FRANZIDO BRANCO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-aberto-cintura-franzid--p-1597025157846.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO ABERTO CINTURA FRANZIDO VERMELHO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-aberto-cintura-franzid--p-1597025149197.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO CETIM ABERTO NAS COSTAS BRANCO" ,
+			"price" : "60.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-cetim-aberto-nas-costas--p-1597798346693.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO CETIM ABERTO NAS COSTAS PRETO" ,
+			"price" : "60.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-cetim-aberto-nas-costas--p-1593378298897.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO CETIM ABERTO NAS COSTAS VERMELHO" ,
+			"price" : "60.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-aberto-cintura-franzid--p-1597025149197.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO CETIM ABERTO NAS COSTAS AZUL MARINHO" ,
+			"price" : "60.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-cetim-aberto-nas-costas--p-1597798344179.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "VESTIDO CETIM ABERTO NAS COSTAS ROSA FUCHSIA" ,
+			"price" : "60.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-cetim-aberto-nas-costas--p-1597798340241.jpeg",
+			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
 		}
-	]
+	]	
 }

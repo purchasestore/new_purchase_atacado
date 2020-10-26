@@ -5,7 +5,7 @@
  * 2. Create a new Google spreadsheet
  * 3. Set sharing permissions to either “Public” or set to “Anyone with link can view”
  * 4. Publish the sheet (File -> Publish to the web -> Publish)
- * 5. Add the spreadsheet ID to your 'config.js' ( spreadsheetID : "XXXXXXXXXXXXXXXXXXXXXXX" )
+ * 5. Add the spreadsheet ID to your 'config.js' ( spreadsheetID : "1ElCDN--XWxljP2JVR0b2D5ONb4iYjG9-8D59A2SdWf0" )
  */
 
 simpleStore.plugins.google = (function() {
@@ -16,9 +16,9 @@ simpleStore.plugins.google = (function() {
 
 		verify = typeof verify !== 'undefined' ? verify : false;
 
-		var hostname = "https://spreadsheets.google.com";
+		var hostname = "https://docs.google.com";
 		var format = "json";
-		var spreadsheetURL = hostname + "/feeds/worksheets/" + s.spreadsheetID + "/public/full?alt=" + format;
+		var spreadsheetURL = hostname + "/spreadsheets/d/" + s.spreadsheetID + "/public/full?alt=" + format;
 		var mainsheetURL = hostname + "/feeds/list/" + s.spreadsheetID + "/od6/public/values?alt=" + format;
 		var settingsSheetName = "Settings";
 		var productsSheetName = "Products";

@@ -78,9 +78,17 @@ var simpleStore = {
 
     insertData: function (tmpl, product) {
         tmpl.find('.item_thumb').attr("src", product.image);
+        tmpl.find('.item_thumb2').attr("src", product.image2);
+        
+        // if(tmpl[0].className == "simpleCart_shelfItem simpleStore_detailView"){
+        //     console.log(tmpl.find('.carousel'));
+        //     tmpl.find('.carousel').slick();
+        // }
+        
         tmpl.find('.item_name').text(product.name);
         tmpl.find('.item_price').text(product.price);
         tmpl.find('.item_description').text(product.description);
+
     },
 
     renderProducts: function (products, s) {
@@ -425,5 +433,6 @@ var simpleStore = {
                 simpleStore.generateStore();
             });
         }
-    }
+    },
+
 };
