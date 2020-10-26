@@ -179,6 +179,24 @@
 			],
 			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-manga-longa-com-franzido-na-frente--p-1591565120472.jpeg",
 			"description" : "Tecido: SUPLEX. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "CONJUNTO KYLIE JENNER PRETO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-conjunto-kylie-jenner--p-1579202975687.jpeg",
+			"description" : "Tecido: Cotton. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "CONJUNTO KYLIE JENNER BRANCO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-conjunto-kylie-jenner--p-1579202988181.jpeg",
+			"description" : "Tecido: Cotton. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
 		}
 	]	
 }
