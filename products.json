@@ -197,6 +197,15 @@
 			],
 			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-conjunto-kylie-jenner--p-1579202988181.jpeg",
 			"description" : "Tecido: Cotton. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
+		},
+		{
+			"name" : "CONJUNTINHO CROPPED MANGA LONGA + CALÇA INVERNO" ,
+			"price" : "55.00",
+			"options" : [
+				{ "Tamanho" : "PP, P, M" }
+			],
+			"image" : "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-conjuntinho-cropped-calca-inverno--p-1591566936790.jpeg",
+			"description" : "Tecido: Cotton. Detalhes: Sem bojo. NÃO FICA TRANSPARENTE."
 		}
 	]	
 }
