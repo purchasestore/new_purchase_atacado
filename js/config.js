@@ -21,7 +21,7 @@ $(function() {
 	    // how simpleCart should checkout, see the checkout reference for more info
 	    checkout: {
 	        type: "PayPal" ,
-	        email: "you@yours.com"
+	        email: "purchase.mod@live.com"
 	    },
 
 	    // set the currency, see the currency reference for more info
