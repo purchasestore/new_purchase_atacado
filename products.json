@@ -1,0 +1,22 @@
+{
+	"products" : [
+		{
+			"name" : "CASACO JACQUARD",
+			"price" : "49.90",
+			"options" : [
+				{ "Tamanho" : "PP,P,M,G" }
+			],
+			"image" : "images/casaco-jacquard--p.jpeg",
+			"description" : "Casaco Jacquard atacado."
+		},
+		{
+			"name" : "Body Cavado Liso",
+			"price" : "39.90",
+			"options" : [
+				{ "Tamanho" : "PP,P,M,G" }
+			],
+			"image" : "images/body-body-cavado-liso--p.jpg",
+			"description" : "Body Cavado Liso Branco atacado."
+		}
+	]
+}
