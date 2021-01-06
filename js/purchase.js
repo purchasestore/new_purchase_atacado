@@ -22,12 +22,12 @@ function fazerPedido() {
     let inicio = "Olá estou comprando pela Simple Store BR. ";
 
     for (var key in produto) {
-        produtos += " QUERO COMPRAR: " + produto[key].quantity + " " + produto[key].name + " DA COR " + produto[key].cor + " NO TAMANHO " + produto[key].tamanho + " POR " + produto[key].price + " CADA.";
+        produtos += "%0a QUERO COMPRAR: " + produto[key].quantity + " " + produto[key].name + " DA COR " + produto[key].cor + " NO TAMANHO " + produto[key].tamanho + " POR " + produto[key].price + " CADA.";
     }
 
 
     let valor = document.querySelector(".simpleCart_grandTotal").innerHTML;
-    let pedido = " Meu pedido total foi: " + valor + ".";
+    let pedido = " %0a Meu pedido total foi: " + valor + ".";
 
     //INSIRA SEU TELEFONE NO FORMATO 55dddNumeroTelefone - EX:5511999999999
     let msg =  "https://api.whatsapp.com/send?phone=5511955542056&text=" + inicio + produtos + " " + pedido;
